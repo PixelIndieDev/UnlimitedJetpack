@@ -16,5 +16,4 @@ This mod only modifies the jetpack battery draining behavior and should work alo
 ## License
 MIT License
 
-## Keywords
-Lethal Company jetpack mod, unlimited jetpack Lethal Company, Lethal Company mods, no battery jetpack mod, BepInEx Lethal Company mod, infinite jetpack mod
+<sub> Keywords: Lethal Company jetpack mod, unlimited jetpack Lethal Company, Lethal Company mods, no battery jetpack mod, BepInEx Lethal Company mod, infinite jetpack mod </sub>
