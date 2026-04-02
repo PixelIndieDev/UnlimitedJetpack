@@ -1,6 +1,6 @@
 {
-  "name": "Unlimited Jetpack",
-  "version_number": "1.0.1.0",
+  "name": "UnlimitedJetpack",
+  "version_number": "1.0.1",
   "website_url": "https://github.com/PixelIndieDev/UnlimitedJetpack",
   "description": "A simple mod that only disables the battery drain of the jetpack",
   "dependencies": [
