@@ -59,7 +59,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ModInfo.cs" />
     <Compile Include="Patches\JetpackUnlimitedFuelPatch.cs" />
+    <Compile Include="Patches\NetworkPatch.cs" />
     <Compile Include="Plugin.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -10,10 +10,13 @@ With this mod installed, the jetpack no longer loses charge, allowing you to use
 ## Usage
 No configuration needed.
 
+> [!IMPORTANT]
+> All players in the lobby are required to have the `Unlimited Jetpack` mod installed. Clients without the mod will receive an generic "an error occurred" message and be sent back to the main menu.
+
 ## Compatibility
 This mod only modifies the jetpack battery draining behavior and should work alongside most other mods.
 
 ## License
-MIT License
+[MIT License](LICENSE)
 
 <sub> Keywords: Lethal Company jetpack mod, unlimited jetpack Lethal Company, Lethal Company mods, no battery jetpack mod, BepInEx Lethal Company mod, infinite jetpack mod </sub>

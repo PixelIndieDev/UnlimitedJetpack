@@ -5,14 +5,10 @@ using UnlimitedJetpack.Patches;
 
 namespace UnlimitedJetpack
 {
-    [BepInPlugin(modGUID, modName, modVersion)]
+    [BepInPlugin(ModInfo.modGUID, ModInfo.modName, ModInfo.modVersion)]
     public class JetpackFuelPatchBase : BaseUnityPlugin
     {
-        private const string modGUID = "PixelIndieDev_UnlimitedJetpack";
-        private const string modName = "Unlimited Jetpack";
-        private const string modVersion = "1.0.0.0";
-
-        private readonly Harmony harmony = new Harmony(modGUID);
+        private readonly Harmony harmony = new Harmony(ModInfo.modGUID);
         private static JetpackFuelPatchBase instance;
 
         internal ManualLogSource logSource;
@@ -24,12 +20,13 @@ namespace UnlimitedJetpack
                 instance = this;
             }
 
-            logSource = BepInEx.Logging.Logger.CreateLogSource(modGUID);
+            logSource = BepInEx.Logging.Logger.CreateLogSource(ModInfo.modGUID);
 
             harmony.PatchAll(typeof(JetpackFuelPatchBase));
             harmony.PatchAll(typeof(JetpackUnlimitedFuelPatch));
+            harmony.PatchAll(typeof(NetworkPatch));
 
-            logSource.LogInfo(modName + ": patch applied successfully");
+            logSource.LogInfo(ModInfo.modName + " (version - " + ModInfo.modVersion + ")" + ": patches applied successfully");
         }
     }
 }
